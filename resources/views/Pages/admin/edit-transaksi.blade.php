@@ -18,7 +18,7 @@
         </div>
         <div class="mb-3">
             <label for="">Alamat</label>
-            <input type="double" class="form-control" id="alamat" value="{{ $tb_transaksi->alamat }}" name="alamat">
+            <input type="text" class="form-control" id="alamat" value="{{ $tb_transaksi->alamat }}" name="alamat">
         </div>
         <div class="mb-3">
             <label for="">Harga Tiket</label>
@@ -33,7 +33,7 @@
             <input type="text" class="form-control" id="waktu" value="{{ $tb_transaksi->status }}" name="status">
         </div>
         
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-success">Submit</button>
     </form>
 </div>
 @endsection
